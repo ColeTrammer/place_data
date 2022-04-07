@@ -6,6 +6,14 @@ This repo computes the most frequent color for each pixel in r/place 2022.
 
 ![Most Frequent Pixels](./result.png)
 
+# Download and Extract Reddit Place Data
+
+```sh
+# Warning: extracted csv is ~21 GiB
+curl https://placedata.reddit.com/data/canvas-history/2022_place_canvas_history.csv.gzip -o 2022_place_canvas_history.csv.gz
+gunzip 2022_place_canvas_history.csv.gz
+```
+
 # Instructions
 
 ```sh
