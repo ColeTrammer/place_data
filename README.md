@@ -26,7 +26,5 @@ python main.py
 
 mv output/*.csv output.csv
 python to_ppm.py >result.ppm
-
-# Linux Specific
-convert result.ppm result.png
+python ppm_to_png.py result.ppm result.png
 ```

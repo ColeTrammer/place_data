@@ -4,6 +4,7 @@ dask==2022.4.0
 fsspec==2022.3.0
 locket==0.2.1
 numpy==1.22.3
+opencv-python==4.5.5.64
 packaging==21.3
 pandas==1.4.2
 partd==1.2.0
